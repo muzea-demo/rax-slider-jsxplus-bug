@@ -1,0 +1,53 @@
+{
+  "name": "test-plus",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "miniappConfig": {
+    "main": "lib/miniapp/index",
+    "main:wechat": "lib/wechat-miniprogram/index"
+  },
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "Rax",
+    "rax-component"
+  ],
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "lint": "eslint ./src/**/*.*"
+  },
+  "dependencies": {
+    "rax-image": "^2.2.1",
+    "rax-slider": "^2.3.5",
+    "rax-text": "^1.0.0",
+    "rax-view": "^1.0.0"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.0",
+    "@types/rax": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "build-plugin-multi-demo-portal": "^0.1.0",
+    "build-plugin-rax-component": "^0.2.0",
+    "driver-universal": "^3.1.0",
+    "eslint": "^6.7.2",
+    "eslint-config-rax": "^0.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-module": "^0.1.0",
+    "eslint-plugin-react": "^7.18.0",
+    "rax": "^1.1.0",
+    "typescript": "^3.7.5"
+  }
+}
